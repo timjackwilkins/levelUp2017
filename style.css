@@ -1,73 +1,41 @@
-p {
-	font-family: 'Lato', sans-serif;
-}
-
-.container {
-	max-width: 100%;
-	background: white;
-	overflow: auto;
-}
-
 header {
-	max-width: 975px;
-	background: white;
-	margin: 0 auto;
-	height: 105px;
+  background: #ffffff;
+  overflow: auto;
 }
 
-.menu-container {
-	max-width: 975px;
-	overflow: auto;
-    margin: 0 auto;
+.header__inner {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 45px auto;
+  max-width: 975px; 
+  position: relative;
 }
 
-.logo {
-	margin-top: 35px;
+.header__logo {
+  display: inline-block;
+  position: absolute;
+  left: 0;
 }
 
-.header-links, .menu {
-	float: right;
+.header__sign-in {
+  position: absolute;
+  right: 0;
 }
 
-.header-links li {
-	display: inline-block;
-	padding-top: 10px;
+.header__sign-in__item {
+  display: inline-block;  
 }
 
-.header-links a:first-of-type {
-	text-decoration: none;
-} 
-
-.login {
-	padding-left: 4px;
-	text-decoration: underline;
-	color: #F07F15;
-	text-transform: uppercase;
-    letter-spacing: 2px;	
+.header__sign-in__redeem {
+  border-right: 1px  #8f8e8b solid;
+  color: #8f8e8b;
+  display: inline-block;
+  padding-right: 9px;
+  text-decoration: none;
 }
 
-.redeem {
-	border-right: 1px  #8f8e8b solid;
-	color: #8f8e8b;
-	padding-right: 9px;
-	text-decoration: none !important;
-}
-
-/*MENU SECTION*/
-
-.menu-items {
-	display: inline-block;
-	font-family: 'Lato', sans-serif;
-	color: #8f8e8b;
-    font-size: 13px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    padding-right: 25px;
-}
-
-.menu-button {
-	background-color: #57bb89;
-    border-radius: 5px 5px 0 0;
-    color: #fff;
-    padding: 12px 5px;
+.header__redeem__text {
+  margin-bottom: 0;
+  margin-top: 0;
 }
